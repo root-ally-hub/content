@@ -98,7 +98,7 @@ To avoid these problems, you can use parentheses, so that the statement is unamb
 You can avoid almost all use of control flow statements using expression statements. For example, `if...else` can be replaced with [ternary operators](/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) and [logical operators](/en-US/docs/Web/JavaScript/Reference/Operators#binary_logical_operators). Iterative statements like `for` or `for...of` can be replaced with [array methods](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods).
 
 ```js
-// Using control flow statements
+ Using control flow statements
 function range(start, end) {
   if (start > end) {
     [start, end] = [end, start];
